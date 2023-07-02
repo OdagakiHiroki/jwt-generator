@@ -11,4 +11,3 @@ const jwtOptions = {
 
 const token = jwt.sign(jwtPayload, privateKey, jwtOptions);
 console.log(token)
-
